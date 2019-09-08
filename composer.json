@@ -1,0 +1,22 @@
+{
+  "name": "henrik/log",
+  "type": "library",
+  "license": "MIT",
+  "description": "Log",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Henrik Karapetyan",
+      "email": "henrikkarapetyan@gmail.com"
+    }
+  ],
+  "require": {
+    "psr/log": "^1.1@dev",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "henrik\\log\\": "src/"
+    }
+  }
+}
